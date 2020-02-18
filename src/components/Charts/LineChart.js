@@ -1,8 +1,8 @@
-import { Line, mixins } from 'vue-chartjs'
+import { Bar, mixins } from 'vue-chartjs'
 
 export default {
   name: 'line-chart',
-  extends: Line,
+  extends: Bar,
   mixins: [mixins.reactiveProp],
   props: {
     extraOptions: Object
